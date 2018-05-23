@@ -1,8 +1,7 @@
 Pets App
 ===================================
 
-This app displays a list of pets and their related data that the user inputs.
-Used in a Udacity course in the Android Basics Nanodegree by Google.
+This app displays a list of pets and their related data that the user inputs. I learned to build this app in a Udacity course ([Android Basics: Data Storage](https://www.udacity.com/course/android-basics-data-storage--ud845)). In this course, I learned about the importance of data persistence when building an Android app. I was introduced to the fundamentals of SQL, the programming language needed to interact with an SQLite relational database. SQLite is a commonly used method to store large sets of data locally on an Android device. I also learned how to work with Content Providers, which help my data storage to be bug free and to be shared with other apps.
 
 Pre-requisites
 --------------
@@ -17,31 +16,21 @@ Getting Started
 This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
-Support
--------
+Example of Application
+---------------
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
+* Main Activity (have no pet)
 
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
+![Main Activity](https://i.imgur.com/zWdHP6Bl.jpg)
 
-License
--------
+* Main Activity (have pets)
 
-Copyright 2016 The Android Open Source Project, Inc.
+![Main Activity](https://i.imgur.com/XejZYuHl.jpg)
 
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
+* Add a new pet
 
-http://www.apache.org/licenses/LICENSE-2.0
+![Add a new pet](https://i.imgur.com/QCo43Gsl.jpg)
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+* Edit a pet
+
+![Edit a pet](https://i.imgur.com/h0cAJbgl.jpg)
